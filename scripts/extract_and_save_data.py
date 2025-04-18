@@ -40,6 +40,6 @@ if __name__ == "__main__":
     print(f"\nQuantidade de dados extraidos: {len(data)}")
 
     n_docs = insert_data(col, data)
-    print(f"\nQuantidade de documentos inseidos: {n_docs}")
+    print(f"\nQuantidade de documentos inseridos: {n_docs}")
 
     client.close()
